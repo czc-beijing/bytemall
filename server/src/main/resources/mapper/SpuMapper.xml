@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.bt.server.model.dao.SpuMapper" >
+  <resultMap id="BaseResultMap" type="com.bt.server.model.pojo.Spu" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="title" property="title" jdbcType="VARCHAR" />
+    <result column="subtitle" property="subtitle" jdbcType="VARCHAR" />
+    <result column="category_id" property="categoryId" jdbcType="INTEGER" />
+    <result column="root_category_id" property="rootCategoryId" jdbcType="INTEGER" />
+    <result column="online" property="online" jdbcType="TINYINT" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="delete_time" property="deleteTime" jdbcType="TIMESTAMP" />
+    <result column="price" property="price" jdbcType="VARCHAR" />
+    <result column="sketch_spec_id" property="sketchSpecId" jdbcType="INTEGER" />
+    <result column="default_sku_id" property="defaultSkuId" jdbcType="INTEGER" />
+    <result column="img" property="img" jdbcType="VARCHAR" />
+    <result column="discount_price" property="discountPrice" jdbcType="VARCHAR" />
+    <result column="description" property="description" jdbcType="VARCHAR" />
+    <result column="tags" property="tags" jdbcType="VARCHAR" />
+    <result column="is_test" property="isTest" jdbcType="TINYINT" />
+    <result column="spu_theme_img" property="spuThemeImg" jdbcType="CHAR" />
+    <result column="for_theme_img" property="forThemeImg" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>
